@@ -2,7 +2,7 @@ number = int(input())
 
 i = 2
 
-while i < number:
+while i < number // 2:
     answer = number % i
     if answer == 0:
         print(number, " is not prime")
