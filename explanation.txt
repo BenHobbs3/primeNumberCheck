@@ -1,0 +1,8 @@
+First you start by inputing the integer x you want checked 
+Create some variable i starting at 2
+Inside of a while i < x // 2:
+  the i variable will be used to modulus the main number to see if the result is 0
+  if the result is 0 then we know that it can't be a prime number because x divided by the number i has no remainder
+    then exit() returning not a prime number
+  increase i by 1
+If it makes it to the end of the while loop then it is indeed prime
